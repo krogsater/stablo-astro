@@ -5,6 +5,8 @@ publishDate: "2024-03-09T16:39:36.050Z"
 image: "../../assets/blog/blog5.jpg"
 category: "design"
 author: "joshua-wood"
+draft: true
+
 tags: [webdev, tailwindcss, frontend]
 ---
 

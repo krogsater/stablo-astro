@@ -5,6 +5,8 @@ publishDate: "2024-03-07T15:39:36.050Z"
 image: "../../assets/blog/blog7.jpg"
 category: "travel"
 author: "erika-oliver"
+draft: true
+
 tags: [astro, tailwindcss, frontend]
 ---
 

@@ -5,15 +5,13 @@ import { Image, getImage } from "astro:assets";
 import { authors } from "@/data/authors";
 import Pagetitle from "@/components/pagetitle.astro";
 import Link from "@/components/ui/link.astro";
-
-
 ---
 
 <Layout title="About">
   <Container>
     <Pagetitle>
-      <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="title">About emi</Fragment>
+      <Fragment slot="desc"></Fragment>
     </Pagetitle>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
@@ -44,10 +42,25 @@ import Link from "@/components/ui/link.astro";
 
     <div class="mx-auto max-w-xl text-center mt-14">
       <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        My name is emi and I like to review products. I live in Oslo, Norway and
+        work as a Software Developer. Why I made this When buying things for
+        myself I often spent weeks researching online, going to stores and
+        sending packages back and forwards. The reason I spent so much time was
+        often that the information I needed to make a informed decision was not
+        easily available, and some times not available at all. So when I was
+        doing some soul searching for what I actually like spending time on
+        researching and testing products was the top one. 
       </p>
+      <h2 class="text-xl font-semibold mt-6 mb-4">Goals</h2>
+      
+      <ul class="list-disc list-inside space-y-2 text-left mx-auto">
+        <li class="text-gray-700 dark:text-gray-300">
+          Provide quality reviews both on the website and in short videos
+        </li>
+        <li class="text-gray-700 dark:text-gray-300">
+          The review should help the audience make informed purchasing decisions
+        </li>
+      </ul>
       <div class="mt-8">
         <Link href="/contact" style="primary">Get in touch</Link>
       </div>

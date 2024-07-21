@@ -6,6 +6,8 @@ image: "../../assets/blog/blog9.avif"
 category: "travel"
 author: "erika-oliver"
 tags: [tag1, tag2, tag3]
+draft: true
+
 ---
 
 We always knew but now we know. The tech elite mean to leave us all behind.

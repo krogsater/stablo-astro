@@ -5,6 +5,8 @@ publishDate: "2024-03-24T11:39:36.050Z"
 image: "../../assets/blog/blog6.avif"
 category: "personal"
 author: "joshua-wood"
+draft: true
+
 tags: [tag1, tag2, tag3]
 ---
 

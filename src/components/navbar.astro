@@ -62,14 +62,21 @@ const mobilemenu: Menu[] = [...leftmenu, ...rightmenu];
         }
       </div>
 
-      <div class="flex items-center justify-between w-full md:w-auto">
-        <a class="w-28 dark:hidden" href="/">
-          emi.reviews
-        </a>
+      <style>
+        .cool-font {
+          font-family: cursive;
+          font-size: 1.8rem;
+        }
+      </style>
 
-        <a class="hidden w-28 dark:block" href="/">
-          emi.reviews
-        </a>
+<div class="flex items-center justify-between w-full md:w-auto">
+  <a class="w-28 dark:hidden text-xl cool-font" href="/">
+    emi.reviews
+  </a>
+
+  <a class="hidden w-28 dark:block text-xl cool-font" href="/">
+    emi.reviews
+  </a>
 
         <button
           id="menu"
